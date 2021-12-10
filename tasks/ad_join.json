@@ -1,0 +1,13 @@
+{
+  "description": "Task to join a Windows AD",
+  "parameters": {
+    "password": {
+      "type": "String",
+      "description": "The AD password"
+    }
+  },
+  "input_method": "powershell",
+  "implementations": [
+    {"name": "ad_join.ps1"}
+  ]
+}
